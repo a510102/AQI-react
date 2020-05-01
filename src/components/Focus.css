@@ -1,0 +1,16 @@
+.aqi-focus .aqi-text {
+  font-size: 24px;
+  padding: 30px 20px;
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1.5px solid black;
+}
+.aqi-focus .aqi-text span {
+  font-size: 16px;
+  font-style: italic;
+}
+.aqi-focus .aqi-text .half {
+  font-size: 8px;
+}
