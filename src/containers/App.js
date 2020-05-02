@@ -27,15 +27,12 @@ const mapDispatchToProps = (dispatch) =>{
 
 
 
-class App extends Component {
-  
+class App extends Component { 
   componentDidMount(){
     const { onRequestAqi} =this.props;
-    onRequestAqi(); 
-    console.log(this.props)  
+    onRequestAqi();   
   }
   onchangeSite=(event)=>{
-    console.log(event.target.value,this.props.datas)
     const {datas, onChangeCounty, countyChangeSiteChange } =this.props;
     let site = datas.find(data =>{
       return data.County === event.target.value
