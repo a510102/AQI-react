@@ -6,22 +6,6 @@ import {
   REQUSET_AQI_ERROR,
 } from './constants';
 
-// const intialStateArea ={
-//   focusSite: '',
-//   County: '',
-// }
-
-// export const changeAqi = (state=intialStateArea, action={}) =>{
-//   console.log(action.type)
-//   switch(action.type){
-//     case ON_CHANGE_COUNTY:
-//       return Object.assign({},state,{County: action.payload})
-//     case ON_CHANGE_FOCUS_SITE:
-//       return Object.assign({},state,{focusSite: action.payload})
-//     default:
-//       return state  
-//   }
-// }
 
 const intialStateData ={
   datas: [],

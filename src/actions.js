@@ -12,13 +12,10 @@ export const onChangeCounty = (text) => ({
 })
 
 
-export const onChangeFocusSite = (text) =>{
- console.log(text)
- 
- return{
+export const onChangeFocusSite = (text) =>({
   type: ON_CHANGE_FOCUS_SITE,
   payload: text,}
-};
+})
 
 export const requestAqi = ()=>(dispatch)=>{
   const url = 'https://opendata.epa.gov.tw/api/v1/AQI?%24skip=0&%24top=1000&%24format=json';
