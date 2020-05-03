@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/AQI-react/static/css/main.b1066f6f.chunk.css",
-    "main.js": "/AQI-react/static/js/main.0dd369ca.chunk.js",
-    "main.js.map": "/AQI-react/static/js/main.0dd369ca.chunk.js.map",
+    "main.js": "/AQI-react/static/js/main.9d879ecf.chunk.js",
+    "main.js.map": "/AQI-react/static/js/main.9d879ecf.chunk.js.map",
     "runtime-main.js": "/AQI-react/static/js/runtime-main.74cb8e18.js",
     "runtime-main.js.map": "/AQI-react/static/js/runtime-main.74cb8e18.js.map",
     "static/js/2.9602c719.chunk.js": "/AQI-react/static/js/2.9602c719.chunk.js",
     "static/js/2.9602c719.chunk.js.map": "/AQI-react/static/js/2.9602c719.chunk.js.map",
     "index.html": "/AQI-react/index.html",
-    "precache-manifest.a0ad9de4fe2ca29f05e8ae5a2871d4f5.js": "/AQI-react/precache-manifest.a0ad9de4fe2ca29f05e8ae5a2871d4f5.js",
+    "precache-manifest.de1e3dd1cb0bb139b59e938734d602ce.js": "/AQI-react/precache-manifest.de1e3dd1cb0bb139b59e938734d602ce.js",
     "service-worker.js": "/AQI-react/service-worker.js",
     "static/css/main.b1066f6f.chunk.css.map": "/AQI-react/static/css/main.b1066f6f.chunk.css.map",
     "static/js/2.9602c719.chunk.js.LICENSE.txt": "/AQI-react/static/js/2.9602c719.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.74cb8e18.js",
     "static/js/2.9602c719.chunk.js",
     "static/css/main.b1066f6f.chunk.css",
-    "static/js/main.0dd369ca.chunk.js"
+    "static/js/main.9d879ecf.chunk.js"
   ]
 }
