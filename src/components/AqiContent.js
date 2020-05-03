@@ -11,14 +11,14 @@ const AqiContent = ({onChangeFocusSite, County, datas, focusSite})=>{
       </div>
       <div className="aqi-content-main flex">
         <FocusCity focusSite= {focusSite}/>
-        <div className='aqi-content-list flex'>
+        <div className='aqi-content-list'>
           { 
             datas.map((data, i)=>{
               let color = '';
               let AQI = data.AQI;
               switch(true){
                 case AQI >= 0 && AQI <= 50 :
-                    color = 'bg-ligth-green';
+                    color = 'bg-light-green';
                   break;
                 case AQI >= 51 && AQI <= 100 :
                     color = 'bg-light-yellow';

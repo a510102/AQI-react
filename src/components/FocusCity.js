@@ -6,7 +6,7 @@ const FocusCity = ({ focusSite })=> {
     let AQI = focusSite.AQI;
     switch(true){
       case AQI >= 0 && AQI <= 50 :
-          color = 'bg-ligth-green';
+          color = 'bg-light-green';
         break;
       case AQI >= 51 && AQI <= 100 :
           color = 'bg-light-yellow';

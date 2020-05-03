@@ -8,6 +8,8 @@
 .aqi-content,
 .aqi-box {
   font-size: 36px;
+  width: 100%;
+  max-width: 1280px;
 }
 
 .aqi-content-title{
@@ -15,6 +17,12 @@
   justify-content: space-between;
   font-size: 40px;
   position: relative;
+  width: 100%;
+  max-width: 1280px;
+  @media (max-width: 1280px) {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
   h2::after{
     content: '';
     display: block;
@@ -23,8 +31,10 @@
     position: absolute;
     top: 50%;
     left: 14%;
-
-
+    @media (max-width: 1280px) {
+      width: 350px;
+      left: 16%;
+    }
   }
 }
 
@@ -35,10 +45,11 @@
 .aqi-content-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(1fr);
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-gap: 30px;
-  @media (max-width: 768px) {
+  @media (max-width: 1280px) {
     grid-template-columns: 1fr;
+    grid-gap: 10px;
   }
 }
 
