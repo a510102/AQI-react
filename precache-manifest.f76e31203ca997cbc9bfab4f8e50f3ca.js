@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "06362ef40d40cd3467810bfbbb87f73b",
+    "revision": "044386bce2034b091cd2ebd5e24411fe",
     "url": "/AQI-react/index.html"
   },
   {
-    "revision": "6b6b6631ab47be47dfa1",
-    "url": "/AQI-react/static/css/main.b1066f6f.chunk.css"
+    "revision": "f1693c8ea4c20252f4a9",
+    "url": "/AQI-react/static/css/main.91b55b9d.chunk.css"
   },
   {
     "revision": "bd7e988bc3bf6f789af1",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/AQI-react/static/js/2.9602c719.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6b6b6631ab47be47dfa1",
+    "revision": "f1693c8ea4c20252f4a9",
     "url": "/AQI-react/static/js/main.9d879ecf.chunk.js"
   },
   {
